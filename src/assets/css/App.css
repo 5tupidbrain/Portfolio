@@ -14,13 +14,13 @@
 .App-header{
     position: absolute;
     padding: 0 3%;
-    height: 80px;
+    height: 100px;
     width: 100%;
 }
-.App-header img{
-    padding: 12px;
+.logo img{
+    padding: 8px;
     float: left;
-    height: 64px;
+    height: 56px;
     width: auto;
 }
 .Nav-container{
@@ -79,16 +79,50 @@
 }
 .left-side li{
     width: 38px;
-    height: 38px;
     padding: 10px;
     text-align: center;
     list-style: none;
 }
 .left-side li a{
     text-decoration: none;
+    transition: ease-in-out 0.2s;
+    opacity:0.5;
+    height: 24px;
+    display: block;
+}
+.left-side li a:hover{
+    opacity: 1;
+}
+.left-side li a img{
+    filter: invert(1);
+    transition: ease-in-out 0.3s;
+}
+.left-side li a img:hover{
+    transform: translateY(-2px);
+
 }
 .last-i{
     margin-bottom: 20px;
+}
+.right-side{
+    right: 40px;
+    left: auto;
+}
+.right-side a{
+    margin-bottom: 20px;
+    font-family: SFmono;
+    font-size: 12px;
+	writing-mode: vertical-lr; 
+	transform: rotate(0deg);
+    transition: ease-in-out 0.2s;
+    text-decoration: none;
+    opacity: 0.6;
+    width:14px;
+    letter-spacing: 1.5px;
+}
+.right-side a:hover{
+    color: #64FFDA;
+    opacity: 1;
 }
 
 
@@ -96,6 +130,8 @@
 .App{
     padding: 0 150px;
     height: 100vh;
+    display: flex;
+    justify-content: center;
 }
 .Container-1{
     padding: 150px 0;
@@ -106,6 +142,7 @@
 }
 .Cont{
     margin: auto;
+    justify-content: center;
     height: max-content;
 }
 .Container-1 h4{
@@ -130,8 +167,11 @@
     font-size: 16px;
 }
 .mail-button{
+    position: relative;
+    display: inline-block;
     padding: 18px 36px;
     margin-top: 60px;
+    text-decoration: none;
     background: none;
     border-radius: 3px;
     border: solid 1px #64FFDA;

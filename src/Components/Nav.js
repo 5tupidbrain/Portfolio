@@ -7,7 +7,9 @@ class Nav extends React.Component {
         return (
             <header className="App-header">
                 <div className='Nav-container'>
-                    <img alt='' src={logo}></img>
+                    <a href='#logo' className='logo'>
+                        <img alt='' src={logo}></img>
+                    </a>
                     <ul className='Nav'>
                         <li>
                             <span>01.</span>

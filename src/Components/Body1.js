@@ -16,7 +16,7 @@ class App extends React.Component {
                         exceptional websites, applications,
                         and everything in between.
                         </p>
-                        <button className='mail-button'>Get In Touch</button>
+                        <a href="mailto:hellosaransh@gmail.com" className='mail-button'>Get In Touch</a>
                     </div>
                 </div>
                 
