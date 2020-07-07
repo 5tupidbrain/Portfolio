@@ -1,16 +1,25 @@
 import React from 'react';
 import './assets/css/App.css';
 
-import Nav from './Components/Nav'
-import Body1 from './Components/Body1'
 import Social from './Components/Social'
+import Nav from './Components/Nav'
+import Intro from './Components/Intro'
+import About from './Components/About'
+import Footer from './Components/Footer'
+import Contact from './Components/Contact'
+import Projects from './Components/Projects'
 
 function App() {
   return (
     <div>
       <Nav />
       <Social />
-      <Body1 />
+      <Intro />
+      <About />
+      <Projects />
+      <Contact />
+      
+      <Footer />
     </div>
   );
 }

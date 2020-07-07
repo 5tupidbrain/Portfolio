@@ -1,8 +1,8 @@
 import React from 'react';
 import logo from '../assets/logo.png';
 
-
 class Nav extends React.Component {
+
     render() {
         return (
             <header className="App-header">
@@ -10,6 +10,10 @@ class Nav extends React.Component {
                     <a href='#logo' className='logo'>
                         <img alt='' src={logo}></img>
                     </a>
+                    <input className='menu-btn' type='checkbox'></input>
+                    <div className='sbar'>
+                        <span></span>
+                    </div>
                     <ul className='Nav'>
                         <li>
                             <span>01.</span>
