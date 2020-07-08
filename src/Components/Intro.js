@@ -9,7 +9,7 @@ class App extends React.Component {
                     <div className='Cont'>
                         <h4>Hi, my name is</h4>
                         <h1>Saransh Hardaha.</h1>
-                        <h2>Freelance Web_developer,</h2>
+                        <h2>I'm a Web_developer,</h2>
                         <p> based in India,
                             I focuses on writting clean,
                             elegent and efficient code 
