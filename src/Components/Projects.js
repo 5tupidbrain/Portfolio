@@ -23,7 +23,7 @@ class Projects extends React.Component {
                                     <a href='https://zrlo.herokuapp.com'>Zrlo</a>
                                     <p>A minimal,clean and basic url shortner,
                                         where you throw long url and it will
-                                        generate a tiny url ⚡.
+                                        generate a tiny url <span role="img" aria-label="l-bolt">⚡</span>.
                                     </p>
                                     <ul>
                                         <li>React.js</li>

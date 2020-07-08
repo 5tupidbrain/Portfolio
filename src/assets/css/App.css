@@ -15,7 +15,16 @@
     --mcolor: rgb(0, 249, 255);
     --lcolor: #313444;
 }
-
+.intro-pg{
+    position: absolute;
+    height: 100%;       
+    opacity: 0.5;
+    width: 100%;
+    z-index: -1;
+    background:url('../wp-ng.gif');
+    background-position: center;
+    background-size: cover;
+}
 .App-header{
     position: absolute;
     padding: 0 3%;
@@ -48,6 +57,7 @@
 .Nav li a{
     letter-spacing: 1px;
     font-size: 13px;
+    cursor: pointer;
     color:#ccd6f6;
     text-decoration: none;
     transition: ease-in-out 0.3s;
@@ -558,6 +568,9 @@
     .social{
         display: none;
     }
+    .intro-pg{
+        background-position:95% 0;
+    }
     .Container-1 h1{
         font-size: 68px;
     }
@@ -622,6 +635,7 @@
 }
 
 @media only screen and (max-width: 480px){
+    
     .App{
         padding: 0 50px;
     }
