@@ -1,11 +1,13 @@
 @font-face {
     font-family: 'FiraCode';
+    font-display: auto;
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/FiraCodeL.ttf'); /* IE9 Compat Modes */
   }
   @font-face {
     font-family: 'Calibre';
+    font-display: auto;
     font-style: normal;
     font-weight: 400;
     src: url('../fonts/calibre-b.woff'); /* IE9 Compat Modes */
@@ -21,7 +23,7 @@
     opacity: 0.5;
     width: 100%;
     z-index: -1;
-    background:url('../wp-ng.gif');
+    background:url('../wp-ng.webm');
     background-position: center;
     background-size: cover;
 }

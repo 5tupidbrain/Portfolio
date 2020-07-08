@@ -1,5 +1,5 @@
 import React from 'react';
-import zrlo from '../assets/zrlo.png';
+import zrlo from '../assets/zrlo2.webp';
 
 
 class Projects extends React.Component {
