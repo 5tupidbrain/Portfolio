@@ -15,7 +15,7 @@ class Projects extends React.Component {
                         <div className='p-grid'>
 
                             <div className='pcard'>
-                                <a href='https://zrlo.herokuapp.com'>
+                                <a href='https://zrlo.xyz'>
                                     <img src={zrlo} alt='' ></img>
                                 </a>
                                 <div className='proj-card'>
