@@ -20,7 +20,7 @@ class Projects extends React.Component {
                                 </a>
                                 <div className='proj-card'>
                                     <h4>Project #1</h4>
-                                    <a href='https://zrlo.herokuapp.com'>Zrlo</a>
+                                    <a href='https://zrlo.xyz'>Zrlo</a>
                                     <p>A minimal,clean and basic url shortner,
                                         where you throw long url and it will
                                         generate a tiny url <span role="img" aria-label="l-bolt">⚡</span>.
