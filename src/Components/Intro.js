@@ -11,7 +11,7 @@ class App extends React.Component {
                         <h1>Saransh Hardaha.</h1>
                         <h2>I'm a Web_developer,</h2>
                         <p> based in India,
-                            I focuses on writting clean,
+                            focuses on writting clean,
                             elegent and efficient code 
                         </p>
 

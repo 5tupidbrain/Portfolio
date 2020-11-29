@@ -21,7 +21,6 @@ function App() {
           <Link activeClass="active"
                 to="intro"
                 smooth={true}
-                offset={-100}
                 duration={500}
                 className='logo'>
             <img alt='' src={logo}></img>
@@ -32,34 +31,28 @@ function App() {
           </div>
           <ul className='Nav'>
             <li>
-              <span>01.</span>
               <Link
                 activeClass="active"
                 to="about"
                 smooth={true}
-                offset={-100}
                 duration={500} >
                 About
               </Link>
             </li>
             <li>
-              <span>02.</span>
               <Link
                 activeClass="active"
                 to="projects"
                 smooth={true}
-                offset={-100}
                 duration={500} >
                 Projects
               </Link>
             </li>
             <li>
-              <span>03.</span>
               <Link
                 activeClass="active"
                 to="contact"
                 smooth={true}
-                offset={-100}
                 duration={500} >
                 Contact
               </Link>

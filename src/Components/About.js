@@ -12,8 +12,7 @@ class About extends React.Component {
 
                             <div className='about'>
                                 <h2>About Me</h2>
-                                <h5>I'm an independent person with high attention to detail.</h5>
-                                <p>and enjoy creating things that live on the internet,
+                                <p>I'm an person with high attention to detail ! and enjoy creating things that live on the internet,
                                 whether that be websites, applications,
                                 or anything in between. My goal is to always build
                                 products that provide pixel-perfect, performant
