@@ -413,6 +413,8 @@
 }
 .p-grid {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 96px;
 }
 .pcard {
   height: max-content;
@@ -540,7 +542,8 @@
   justify-content: space-evenly;
   flex-direction: column;
   width: 100%;
-  background: var(--lcolor);
+  /* background: var(--lcolor); */
+  background-color: #191b24;
   height: 140px;
   font-family: sans-serif;
   font-size: 14px;
@@ -565,6 +568,10 @@
   }
   .right-fl {
     display: none;
+  }
+  .p-grid {
+    grid-template-columns: auto;
+    gap: 96px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -629,6 +636,7 @@
   .menu-btn:checked ~ .Nav {
     display: flex;
   }
+  
   .pcard {
     width: auto;
   }

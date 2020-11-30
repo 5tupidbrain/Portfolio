@@ -1,44 +1,53 @@
 import React from 'react';
-import zrlo from '../assets/zrlo2.webp';
+import { objOne, objTwo } from './data';
 
+
+function Proj_card(props) {
+  return (
+    <>
+      <div className='pcard'>
+        <a href={props.url}>
+          <img src={props.img} alt='' ></img>
+        </a>
+        <div className='proj-card'>
+          <h4>Project #{props.no}</h4>
+          <a href={props.url}>{props.name}</a>
+          <p>{props.desc} <span role="img" aria-label="l-bolt">⚡</span></p>
+          <ul>
+            <li>{props.lang1}</li>
+            <li>{props.lang2}</li>
+            <li>{props.lang3}</li>
+          </ul>
+        </div>
+      </div>
+    </>
+  )
+}
 
 class Projects extends React.Component {
-    render() {
-        return (
-            <div className="App">
-                <div className='Container-4 Container'>
-                    <div className='proj'>
+  constructor(props) {
+    super(props);
+  }
+  render() {
+    return (
+      <div className="App">
+        <div className='Container-4 Container'>
+          <div className='proj'>
 
-                        <div className='projects' >
-                            <h2>Some Things I've Built</h2>
-                        </div>
-                        <div className='p-grid'>
-
-                            <div className='pcard'>
-                                <a href='https://zrlo.xyz'>
-                                    <img src={zrlo} alt='' ></img>
-                                </a>
-                                <div className='proj-card'>
-                                    <h4>Project #1</h4>
-                                    <a href='https://zrlo.xyz'>Zrlo</a>
-                                    <p>A minimal,clean and basic url shortner,
-                                        where you throw long url and it will
-                                        generate a tiny url <span role="img" aria-label="l-bolt">⚡</span>.
-                                    </p>
-                                    <ul>
-                                        <li>React.js</li>
-                                        <li>Node.js</li>
-                                        <li>Express.js</li>
-                                    </ul>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
+            <div className='projects' >
+              <h2>Some Things I've Built</h2>
             </div>
-        )
-    }
+            <div className='p-grid'>
+
+              <Proj_card{...objOne} />
+              <Proj_card{...objTwo} />
+
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
 }
 
 export default Projects
