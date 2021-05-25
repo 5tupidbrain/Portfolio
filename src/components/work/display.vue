@@ -9,8 +9,8 @@
         {{ desc }}
       </p>
     </div>
-    <router-link
-      :to="`https://${slug}.vercel.app`"
+    <a
+      :href="`https://${slug}.vercel.app`"
       class="items-center flex max-w-max hover:text-white transitionall duration-300 text-gray-500 text-sm"
       >Read More
       <span class="block ml-2"

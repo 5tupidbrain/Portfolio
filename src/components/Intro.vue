@@ -22,7 +22,7 @@
     <div>
       <a
         href="#contact"
-        class="block mt-6 transition duration-300 text-white rounded-full p-3 px-6 ring-2 ring-white hover:bg-white hover:text-black"
+        class="block mt-6 bg-white transition duration-300 text-black rounded-full p-3 px-6 ring-2 ring-white hover:bg-black hover:text-white"
       >
         Get in touch <span>🙌</span>
       </a>
