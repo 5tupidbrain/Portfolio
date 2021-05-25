@@ -17,6 +17,6 @@ import work from "@/components/resume/work";
 import education from "@/components/resume/education";
 export default {
   setup() {},
-  components: { introduction, work, skills,  certificates, education },
+  components: { introduction, work, skills, education },
 };
 </script>
