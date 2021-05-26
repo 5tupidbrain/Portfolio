@@ -12,6 +12,7 @@
           :desc="blog.description"
           :thumbnail="blog.thumbnail"
           :date="blog.date"
+          :tags="blog.tags"
           :slug="blog.slug"
         />
       </div>

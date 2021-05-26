@@ -2,7 +2,10 @@
   <div
     class="opacity-80 hover:opacity-100 transition-all duration-300 flex flex-col space-y-2"
   >
-    <img :src="thumbnail" class="h-36 w-60 rounded" />
+    <img
+      :src="require(`@/assets/img/${thumbnail}`)"
+      class="h-36 w-60 rounded"
+    />
     <div class="flex flex-col space-y-1">
       <h2 class="text-xl font-bold w-60 line-clamp-1">{{ title }}</h2>
       <p class="text-sm line-clamp-2 w-60 text-gray-400">

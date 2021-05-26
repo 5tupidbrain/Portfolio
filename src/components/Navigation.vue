@@ -29,21 +29,15 @@
       <div class="hidden sm:flex items-center space-x-12 text-xs text-gray-600">
         <router-link
           to="/"
-          class="font-semibold tracking-wider transition-all duration-300 hover:text-white"
-          >HOME</router-link
-        >
-        <router-link to="/blog"
-          class=" font-semibold tracking-wider transition-all duration-300 hover:text-white"
-          >BLOG</router-link>
-        <router-link
-          to="/resume"
-          class=" font-semibold tracking-wider transition-all duration-300 hover:text-white"
-          >RESUME</router-link
+          class="font-semibold tracking-wider uppercase transition-all duration-300 hover:text-white"
+          >Home</router-link
         >
         <router-link
-          to="/work"
-          class=" font-semibold tracking-wider transition-all duration-300 hover:text-white"
-          >WORKS</router-link
+          :to="`/${menuItem}`"
+          v-for="menuItem in MenuList"
+          :key="menuItem"
+          class="font-semibold tracking-wider uppercase transition-all duration-300 hover:text-white"
+          >{{ menuItem }}</router-link
         >
       </div>
     </div>
@@ -54,21 +48,14 @@
       >
         <router-link
           to="/"
-          class=" font-semibold tracking-wider transition-all duration-300 hover:text-white"
-          >HOME</router-link
-        >
-        <router-link to="/blog"
-          class=" font-semibold tracking-wider transition-all duration-300 hover:text-white"
-          >BLOG</router-link>
-        <router-link
-          to="/resume"
-          class=" font-semibold tracking-wider transition-all duration-300 hover:text-white"
-          >RESUME</router-link
+          class=" font-semibold tracking-wider uppercase transition-all duration-300 hover:text-white"
+          >Home</router-link
         >
         <router-link
-          to="/work"
-          class=" font-semibold tracking-wider transition-all duration-300 hover:text-white"
-          >WORKS</router-link
+          :to="`/${menuItem}`"
+          v-for="menuItem in MenuList"
+          :key="menuItem"
+          >{{ menuItem }}</router-link
         >
       </div>
     </div>
@@ -82,8 +69,10 @@ export default {
       let menu = document.getElementById("MobileMenu");
       menu.classList.toggle("hidden");
     };
+    let MenuList = ["blog", "resume"];
     return {
       MobileMenu,
+      MenuList,
     };
   },
 };
@@ -91,8 +80,7 @@ export default {
 
 <style scoped>
 * {
-  cursor: url("../assets/cursor.png") 10 3, url("../assets/pointer.png") 10 3,
-    none;
+  cursor: url("../assets/cursor.png") 10 3, none;
 }
 .router-link-active {
   color: #fff;

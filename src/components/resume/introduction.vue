@@ -10,7 +10,9 @@
         </h2>
         <p class="text-gray-400">
           I Enjoy creating things that live on the internet, whether that be
-          websites, applications, or anything in between
+          websites, applications, or anything in between. I am a tech enthusiast
+          so i have learned alot with internet and always upgrading with the
+          technology.
         </p>
       </div>
       <a

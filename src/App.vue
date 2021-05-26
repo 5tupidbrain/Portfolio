@@ -19,6 +19,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  cursor: url("./assets/cursor.png") 10 3, url("./assets/pointer.png") 10 3, none;
+  cursor: url("./assets/cursor.png") 10 3, none;
 }
 </style>

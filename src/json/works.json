@@ -3,15 +3,14 @@
     {
       "title": "Animeo",
       "description": "An anime website that allows users to watch their favorite anime shows online🐼.",
-      "thumbnail": "https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
+      "thumbnail": "animeo.png",
       "slug": "animeo"
     },
     {
       "title": "CoAvail",
       "description": "An Open Source website where you can search for COVID19 resources in your city 🏙 using Social Media.",
-      "thumbnail": "https://images.unsplash.com/photo-1508138221679-760a23a2285b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8cmFuZG9tfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80",
+      "thumbnail": "coavail.png",
       "slug": "coavail"
     }
   ]
-  
 }
