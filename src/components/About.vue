@@ -51,3 +51,8 @@ export default {
   },
 };
 </script>
+<style scoped>
+li{
+  cursor: none;
+}
+</style>

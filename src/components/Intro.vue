@@ -11,8 +11,8 @@
       Hi, I'm Saransh <span class="filter grayscale">🐼</span>
     </h4>
     <h2 class="text-3xl sm:text-4xl font-semibold">
-      Web Developer,<br />
-      UI/UX Designer and a Learner.
+      I am a minimalist,<br />
+      I like saying the most with the least.
     </h2>
     <p class="text-gray-400 relative">
       I Enjoy creating things that live on the internet, whether that be

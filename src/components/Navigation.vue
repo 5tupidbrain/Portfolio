@@ -79,9 +79,6 @@ export default {
 </script>
 
 <style scoped>
-* {
-  cursor: url("../assets/cursor.png") 10 3, none;
-}
 .router-link-active {
   color: #fff;
   position: relative;
